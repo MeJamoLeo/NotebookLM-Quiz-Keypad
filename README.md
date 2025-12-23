@@ -4,7 +4,7 @@ Keyboard-only controls for NotebookLM quiz UI. Works across nested iframes/blob
 contexts by injecting a content script into all frames and matching visible
 buttons by text/aria labels.
 
-Japanese version: `README.ja.md`
+Japanese version: [README.ja.md](https://github.com/MeJamoLeo/NotebookLM-Quiz-Keypad/blob/main/README.ja.md)
 
 This extension was created to enable an Anki-like, keyboard-only answering flow
 inside NotebookLM quizzes.
