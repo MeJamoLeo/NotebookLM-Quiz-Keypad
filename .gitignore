@@ -1,0 +1,7 @@
+*
+!.gitignore
+!content.js
+!manifest.json
+!README.md
+!README.ja.md
+!LICENSE

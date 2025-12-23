@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "NotebookLM Quiz Keypad",
+  "version": "0.1.0",
+  "description": "Keyboard controls for NotebookLM quiz UI.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://notebooklm.google.com/*",
+        "https://*.usercontent.goog/*"
+      ],
+      "js": ["content.js"],
+      "all_frames": true,
+      "match_about_blank": true,
+      "match_origin_as_fallback": true,
+      "run_at": "document_idle"
+    }
+  ]
+}
